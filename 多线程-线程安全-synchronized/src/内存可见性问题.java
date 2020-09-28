@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class 内存可见性问题 {
+
+    private static boolean state = true;
+
+    private static class A extends Thread {
+        @Override
+        public void run() {
+            int n = 0;
+            while (state) {
+                n++;
+            }
+            System.out.println(n);
+        }
+    }
+
+    public static void main(String[] args) {
+        Thread t = new A();
+        t.start();
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("please input something");
+    }
+}
