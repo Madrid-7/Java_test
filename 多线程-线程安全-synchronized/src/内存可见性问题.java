@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.concurrent.TimeUnit;
 
 public class 内存可见性问题 {
 
@@ -10,8 +11,11 @@ public class 内存可见性问题 {
             int n = 0;
             while (state) {
                 n++;
+
+                System.out.println(state);
+
+                //System.out.println(n);
             }
-            System.out.println(n);
         }
     }
 
@@ -21,5 +25,8 @@ public class 内存可见性问题 {
 
         Scanner sc = new Scanner(System.in);
         System.out.println("please input something");
+
+        state = false;
+
     }
 }
