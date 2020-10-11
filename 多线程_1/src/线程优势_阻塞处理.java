@@ -19,7 +19,7 @@ public class 线程优势_阻塞处理 {
 
         @Override
         public void run() {
-            System.out.println(fib(n));
+            System.out.println(n+ "-fib->" + fib(n));
         }
     }
 

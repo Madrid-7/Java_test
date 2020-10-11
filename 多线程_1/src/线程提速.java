@@ -4,12 +4,9 @@ public class 线程提速 {
 
     private static void calc() {
         long r = 0;
-
         for (int i = 0; i < COUNT; i++) {
             r += i;
         }
-
-        System.out.println(r);
     }
 
     private static class CalcThread extends Thread {
@@ -20,7 +17,7 @@ public class 线程提速 {
         }
     }
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main() throws InterruptedException {
         long start = System.nanoTime();
 
         CalcThread[] threads = new CalcThread[N - 1];
@@ -40,6 +37,6 @@ public class 线程提速 {
 
         long end = System.nanoTime();
         double time = (end - start) * 1.0 / 1000 /1000;
-        System.out.println("time:" + time);
+        System.out.println("多线程:" + time);
     }
 }

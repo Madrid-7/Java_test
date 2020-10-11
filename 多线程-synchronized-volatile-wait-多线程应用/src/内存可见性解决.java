@@ -1,9 +1,11 @@
 import java.util.Scanner;
+
 import java.util.concurrent.TimeUnit;
 
-public class 内存可见性问题 {
+public class 内存可见性解决 {
 
-    private static boolean state = true;
+
+    private volatile static boolean state = true;
 
     private static class A extends Thread {
         @Override
@@ -30,4 +32,6 @@ public class 内存可见性问题 {
         state = false;
 
     }
+
+
 }

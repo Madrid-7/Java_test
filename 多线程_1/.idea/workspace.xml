@@ -2,22 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38545998-d588-4fd3-a454-dda87a5aad0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../2020_3_19/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../2020_3_19/src/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../多线程-操作-状态/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../多线程-操作-状态/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../多线程-操作-状态/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../多线程-操作-状态/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../多线程-操作-状态/src/Sleep功能.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../多线程-操作-状态/src/使用自定义的标志位通知停止/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../多线程-操作-状态/src/使用自定义的标志位通知停止/Condition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../多线程-操作-状态/src/使用自定义的标志位通知停止/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../多线程-操作-状态/多线程-操作-状态.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/使用匿名类_lambda表达式创建线程对象.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/手动创建线程.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/线程优势_阻塞处理.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/线程提速.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../多线程-线程安全-synchronized/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../多线程-线程安全-synchronized/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/多线程_1/线程优势_阻塞处理$FibThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/多线程_1/线程优势_阻塞处理$FibThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/多线程_1/线程提速$CalcThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/多线程_1/线程提速$CalcThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/多线程_1/线程提速.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/多线程_1/线程提速.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/线程优势_阻塞处理.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/线程优势_阻塞处理.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/线程提速.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/线程提速.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,11 +23,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/线程提速.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="728">
-              <caret line="42" column="43" lean-forward="true" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
+            <state relative-caret-position="24">
+              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-264">
+              <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -43,8 +44,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/线程优势_阻塞处理.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+            <state relative-caret-position="416">
+              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+              <folding>
+                <element signature="e#374#375#0" expanded="true" />
+                <element signature="e#426#427#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,17 +57,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/手动创建线程.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="456">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/使用匿名类_lambda表达式创建线程对象.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+            <state relative-caret-position="240">
+              <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -82,10 +87,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/线程提速.java" />
-        <option value="$PROJECT_DIR$/src/线程优势_阻塞处理.java" />
         <option value="$PROJECT_DIR$/src/手动创建线程.java" />
         <option value="$PROJECT_DIR$/src/使用匿名类_lambda表达式创建线程对象.java" />
+        <option value="$PROJECT_DIR$/src/线程优势_阻塞处理.java" />
+        <option value="$PROJECT_DIR$/src/线程提速.java" />
+        <option value="$PROJECT_DIR$/src/Test.java" />
       </list>
     </option>
   </component>
@@ -138,6 +144,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.jscs" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
@@ -163,9 +170,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.线程优势_阻塞处理">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="线程提速" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="线程提速" />
+      <module name="多线程_1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="多线程_1" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -180,8 +194,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.线程优势_阻塞处理" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.线程提速" />
+        <item itemvalue="Application.线程优势_阻塞处理" />
       </list>
     </recent_temporary>
   </component>
@@ -200,17 +215,26 @@
       <workItem from="1597112009287" duration="2153000" />
       <workItem from="1597309336743" duration="11568000" />
       <workItem from="1597566483042" duration="10035000" />
+      <workItem from="1601651583532" duration="4597000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62010000" />
+    <option name="totallyTimeSpent" value="66607000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18230563" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18443497" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -219,11 +243,11 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27006507" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
@@ -247,29 +271,40 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/线程优势_阻塞处理.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/手动创建线程.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/使用匿名类_lambda表达式创建线程对象.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        <state relative-caret-position="416">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding>
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/线程提速.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="42" column="43" lean-forward="true" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
+        <state relative-caret-position="24">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264">
+          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/手动创建线程.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/使用匿名类_lambda表达式创建线程对象.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
         </state>
       </provider>
     </entry>
