@@ -1,7 +1,5 @@
 public class 观察线程不安全 {
 
-
-
     static class Add extends Thread {
         @Override
         public void run() {

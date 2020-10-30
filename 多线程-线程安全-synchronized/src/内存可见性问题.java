@@ -12,9 +12,6 @@ public class 内存可见性问题 {
             while (state) {
                 n++;
 
-                //System.out.println(state);
-
-                //System.out.println(n);
             }
             System.out.println("quit");
         }

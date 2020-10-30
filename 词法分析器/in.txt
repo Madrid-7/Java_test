@@ -1,0 +1,30 @@
+int main() {
+  int min=2, mid=3, max=1, t;
+  int sum, ave;          //  sum = min + mid +max
+
+  if (min > mid) {
+    t = min;
+    min = mid;
+    mid = t;
+  }
+  if (min > max) {
+    t = min;
+    min = max;
+    max = t;
+  }
+  if (mid > max) {
+    t = mid;
+    mid = max;
+    max = t;
+  }
+
+  /*   this is a test
+     for the question
+  there is no doubt that is right
+  Just do it!        */
+
+  sum = min + mid + max;
+  ave = sum / 3;
+
+  return 0;
+}

@@ -26,6 +26,7 @@ public class 内存可见性解决 {
         Thread t = new A();
         t.start();
 
+
         Scanner sc = new Scanner(System.in);
         System.out.println("please input something");
         sc.nextLine();
