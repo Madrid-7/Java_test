@@ -2,7 +2,7 @@ public class 线程不安全机制解决 {
 
 
     static class Add extends Thread {
-        private Object lock ;
+        private final Object lock ;
         Add(Object o) {
             this.lock = o;
         }
@@ -18,7 +18,7 @@ public class 线程不安全机制解决 {
     }
 
     static class Sub extends Thread {
-        private Object lock ;
+        private final Object lock ;
         Sub(Object o) {
             this.lock = o;
         }

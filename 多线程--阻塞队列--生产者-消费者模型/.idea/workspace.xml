@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38545998-d588-4fd3-a454-dda87a5aad0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../多线程--阻塞队列--生产者-消费者模型/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../多线程--阻塞队列--生产者-消费者模型/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../多线程--阻塞队列--生产者-消费者模型/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../多线程--阻塞队列--生产者-消费者模型/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../多线程--阻塞队列--生产者-消费者模型/src/BlockingQueueDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../多线程--阻塞队列--生产者-消费者模型/src/JavaTimerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../多线程--阻塞队列--生产者-消费者模型/src/MyBlockingArrayQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../多线程--阻塞队列--生产者-消费者模型/src/MyBlockingArrayQueueDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../多线程--阻塞队列--生产者-消费者模型/src/MyBlockingArrayQueueWrongDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../多线程--阻塞队列--生产者-消费者模型/src/SimpleTimer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../多线程--阻塞队列--生产者-消费者模型/src/UsageOfWait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../多线程--阻塞队列--生产者-消费者模型/src/WaitBelongsWhom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../多线程--阻塞队列--生产者-消费者模型/多线程--阻塞队列--生产者-消费者模型.iml" afterDir="false" />
+    <list default="true" id="0f796fb9-503a-4a67-8d5f-143a5ea8422d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BlockingQueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaTimerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyBlockingArrayQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyBlockingArrayQueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyBlockingArrayQueueWrongDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SimpleTimer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UsageOfWait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WaitBelongsWhom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/多线程--阻塞队列--生产者-消费者模型.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../多线程-synchronized-volatile-wait-多线程应用/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../多线程-synchronized-volatile-wait-多线程应用/src/volatile的语法示例.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../多线程-synchronized-volatile-wait-多线程应用/src/多线程代码.java" afterDir="false" />
@@ -38,7 +38,8 @@
       <change beforePath="$PROJECT_DIR$/../多线程-synchronized-volatile-wait-多线程应用/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../多线程-synchronized-volatile-wait-多线程应用/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../多线程-synchronized-volatile-wait-多线程应用/src/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../多线程-synchronized-volatile-wait-多线程应用/src/线程不安全机制解决.java" beforeDir="false" afterPath="$PROJECT_DIR$/../多线程-synchronized-volatile-wait-多线程应用/src/线程不安全机制解决.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/使用匿名类_lambda表达式创建线程对象.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/使用匿名类_lambda表达式创建线程对象.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../多线程_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../多线程_1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../多线程_1/src/使用匿名类_lambda表达式创建线程对象.java" beforeDir="false" afterPath="$PROJECT_DIR$/../多线程_1/src/使用匿名类_lambda表达式创建线程对象.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../词法分析器/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../词法分析器/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -49,67 +50,90 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/线程提速.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Test.java">
+        <entry file="file://$PROJECT_DIR$/src/BlockingQueueDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/线程优势_阻塞处理.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+              <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
               <folding>
-                <element signature="e#374#375#0" expanded="true" />
-                <element signature="e#438#439#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/手动创建线程.java">
+        <entry file="file://$PROJECT_DIR$/src/JavaTimerDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="192">
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MyBlockingArrayQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MyBlockingArrayQueueDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/使用匿名类_lambda表达式创建线程对象.java">
+        <entry file="file://$PROJECT_DIR$/src/MyBlockingArrayQueueWrongDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+            <state relative-caret-position="416">
+              <caret line="35" column="25" lean-forward="true" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SimpleTimer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/UsageOfWait.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="808">
+              <caret line="36" column="65" selection-start-line="36" selection-start-column="65" selection-end-line="36" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/WaitBelongsWhom.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -117,11 +141,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/手动创建线程.java" />
-        <option value="$PROJECT_DIR$/src/线程优势_阻塞处理.java" />
-        <option value="$PROJECT_DIR$/src/线程提速.java" />
-        <option value="$PROJECT_DIR$/src/Test.java" />
-        <option value="$PROJECT_DIR$/src/使用匿名类_lambda表达式创建线程对象.java" />
+        <option value="$PROJECT_DIR$/src/MyBlockingArrayQueueDemo.java" />
+        <option value="$PROJECT_DIR$/src/MyBlockingArrayQueue.java" />
       </list>
     </option>
   </component>
@@ -141,9 +162,7 @@
     <option name="width" value="1079" />
     <option name="height" value="1050" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -153,28 +172,27 @@
         <subPane>
           <expand>
             <path>
-              <item name="多线程_1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="多线程_1" type="462c0819:PsiDirectoryNode" />
+              <item name="多线程--阻塞队列--生产者-消费者模型" type="b2602c69:ProjectViewProjectNode" />
+              <item name="多线程--阻塞队列--生产者-消费者模型" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="多线程_1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="多线程_1" type="462c0819:PsiDirectoryNode" />
+              <item name="多线程--阻塞队列--生产者-消费者模型" type="b2602c69:ProjectViewProjectNode" />
+              <item name="多线程--阻塞队列--生产者-消费者模型" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../多线程_1" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.jscs" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
@@ -188,6 +206,11 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="configurable.group.other" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\work\Java_test\多线程--阻塞队列--生产者-消费者模型\src" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -200,33 +223,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="线程提速" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="线程提速" />
-      <module name="多线程_1" />
+  <component name="RunManager" selected="Application.MyBlockingArrayQueueWrongDemo">
+    <configuration name="MyBlockingArrayQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyBlockingArrayQueueDemo" />
+      <module name="多线程--阻塞队列--生产者-消费者模型" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <module name="多线程_1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="线程优势_阻塞处理" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="线程优势_阻塞处理" />
-      <module name="多线程_1" />
+    <configuration name="MyBlockingArrayQueueWrongDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyBlockingArrayQueueWrongDemo" />
+      <module name="多线程--阻塞队列--生产者-消费者模型" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.线程提速" />
-        <item itemvalue="Application.线程优势_阻塞处理" />
+        <item itemvalue="Application.MyBlockingArrayQueueWrongDemo" />
+        <item itemvalue="Application.MyBlockingArrayQueueDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -235,125 +250,116 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="38545998-d588-4fd3-a454-dda87a5aad0c" name="Default Changelist" comment="" />
-      <created>1596683549105</created>
+      <changelist id="0f796fb9-503a-4a67-8d5f-143a5ea8422d" name="Default Changelist" comment="" />
+      <created>1604914761364</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1596683549105</updated>
-      <workItem from="1596683550473" duration="14940000" />
-      <workItem from="1596858656405" duration="23314000" />
-      <workItem from="1597112009287" duration="2153000" />
-      <workItem from="1597309336743" duration="11568000" />
-      <workItem from="1597566483042" duration="10035000" />
-      <workItem from="1601651583532" duration="4597000" />
-      <workItem from="1604920883594" duration="1142000" />
+      <updated>1604914761364</updated>
+      <workItem from="1604914762584" duration="4533000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67749000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="4533000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18699732" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15616623" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27006507" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/线程提速.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/BlockingQueueDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/线程优势_阻塞处理.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
           <folding>
-            <element signature="e#374#375#0" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/手动创建线程.java">
+    <entry file="file://$PROJECT_DIR$/src/JavaTimerDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="745" column="18" lean-forward="true" selection-start-line="745" selection-start-column="18" selection-end-line="745" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1080">
-          <caret lean-forward="true" />
+        <state relative-caret-position="192">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding>
-            <element signature="e#0#2044#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/使用匿名类_lambda表达式创建线程对象.java">
+    <entry file="file://$PROJECT_DIR$/src/MyBlockingArrayQueueDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        <state relative-caret-position="165">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyBlockingArrayQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UsageOfWait.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="808">
+          <caret line="36" column="65" selection-start-line="36" selection-start-column="65" selection-end-line="36" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WaitBelongsWhom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SimpleTimer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyBlockingArrayQueueWrongDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="35" column="25" lean-forward="true" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
         </state>
       </provider>
     </entry>

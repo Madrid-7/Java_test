@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class 使用匿名类_lambda表达式创建线程对象 {
     public static void main(String[] args) {
 
@@ -17,7 +19,8 @@ public class 使用匿名类_lambda表达式创建线程对象 {
 
         Thread t3 = new Thread(() -> {
             //run() 方法
-
+            System.out.println("sad");
         });
+
     }
 }
