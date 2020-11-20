@@ -3,41 +3,40 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
-@SuppressWarnings("resource")
 public class ReadData {
 
     public ReadData() {
         super();
-
     }
-    //全部事物数据
+    
+    //全部数据
     public ArrayList<ArrayList<String>> DataAll(String filePath)throws IOException{
         BufferedReader br = new BufferedReader(new FileReader(filePath));
         ArrayList<ArrayList<String>> list = new ArrayList<>();
         ArrayList<String> line = new ArrayList<String>();
         String str = null;
-        String s1 =null;
-        String s =null;
+        String s1 = null;
+        String s = null;
         int length;
         String[] c;
-        while(!(str=br.readLine()).equals("")){
-            s =str.split(" ")[0];
+        while (!(str=br.readLine()).equals("")) {
+            s = str.split(" ")[0];
             line.add(s);
             list.add(line);
             s1 = str.split(" ")[1];
-            c= s1.split(",");
+            c = s1.split(",");
             length = s1.split(",").length;
-            for(int i = 0 ; i<length; i++){
+            for(int i = 0 ; i<length; i++) {
                 line.add(c[i]);
             }
-            //System.out.println(list);
             line = new ArrayList<>();
         }
         br.close();
-        System.out.println("全部事务数据："+list);
+        System.out.println("全部数据：" + list);
         return list;
     }
-    //产生候选C
+
+    //产生候选集
     public  ArrayList<ArrayList<String>> CandidateSets(ArrayList<ArrayList<String>> list){
         //产生候选项
         ArrayList<String> line = new ArrayList<>();
@@ -46,14 +45,14 @@ public class ReadData {
         Iterator<ArrayList<String>> it = list.iterator();
         ArrayList<ArrayList<String>> css = new ArrayList<>();
         String temp = null;
-        int sign =0;//sign==0表示读入一条事务的ID
+        int sign = 0;//sign==0表示读入一条事务的ID
         while(it.hasNext()){
             line = it.next();
             Iterator<String> it1 = line.iterator();
             while(it1.hasNext()){
-                if(sign==0){
+                if(sign == 0){
                     temp = it1.next();
-                    sign=1;
+                    sign = 1;
                     continue;
                 }
                 temp = it1.next();
@@ -63,11 +62,10 @@ public class ReadData {
                 }
                 tLine = new ArrayList<>();
             }
-            sign =0;
+            sign = 0;
             line = new ArrayList<>();
         }
         css = this.SortCandidateSetsIn(cs);
-        cs = new ArrayList<>();
         cs = this.SortCandidateSetsOut(css);
         System.out.println("候选1项集："+cs);
         return cs;

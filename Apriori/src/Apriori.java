@@ -4,18 +4,17 @@ import java.util.Iterator;
 import java.util.Set;
 
 public class Apriori {
-    //最小支持度计数
-    final int minCount = 2;
-    //最小置信度阈值
-    final double minConfidence =0.7;
+    private final int minCount = 2;             //最小支持度
+
+    private final double minConfidence = 0.7;    //最小置信度
 
     public Apriori() {
         super();
     }
     //扫描数据集，得出支持度以及项集
     public ArrayList<ArrayList<String>> scanData(ArrayList<ArrayList<String>> list,ArrayList<ArrayList<String>> data,ArrayList<ArrayList<String>> fcs,int n){
-        ArrayList<String> line = new ArrayList<>();
-        ArrayList<String> tempLine = new ArrayList<>();
+        ArrayList<String> line;
+        ArrayList<String> tempLine;
         Iterator<ArrayList<String>> it = list.iterator();
         ArrayList<ArrayList<String>> css = new ArrayList<>();
         String str = null;
@@ -39,7 +38,6 @@ public class Apriori {
                 if(sign){
                     count++;
                 }
-                tempLine = new ArrayList<>();
             }
             if(count>=this.minCount){
 
@@ -51,14 +49,12 @@ public class Apriori {
                 fcs.add(line);
                 count = 0;
             }
-            line = new ArrayList<>();
-            tempLine = new ArrayList<>();
         }
         System.out.println("频繁"+(n+1)+"项集："+css);
         System.out.println("非频繁"+(n+1)+"项集："+fcs);
         return css;
     }
-    //连接步
+    //连接
     public ArrayList<ArrayList<String>> connection(ArrayList<ArrayList<String>> list,int n){
         Iterator<ArrayList<String>> it = list.iterator();
         ArrayList<ArrayList<String>> css = new ArrayList<>();
@@ -119,7 +115,7 @@ public class Apriori {
         System.out.println("候选"+(n+1)+"项集"+css);
         return css;
     }
-    //剪枝步
+    //剪枝
     public ArrayList<ArrayList<String>> pruning(ArrayList<ArrayList<String>> list,ArrayList<ArrayList<String>> fcs){
         ArrayList<ArrayList<String>> css = new ArrayList<>();
         ArrayList<String> line = new ArrayList<>();
@@ -202,12 +198,12 @@ public class Apriori {
             Set<Set<String>> result = new HashSet<Set<String>>();	//用来存放子集的集合
             length = line.size() ;
             int num = length==0 ? 0 : 1<<(length);	//2的n次方，若集合set为空，num为0；若集合set有4个元素，那么num为16.
-            //从0到2^n-1（[00...00]到[11...11]）
+
             for(int i = 0; i < num; i++){
                 Set<String> subSet = new HashSet<String>();
                 int index = i;
                 for(int j = 0; j < length; j++){
-                    if((index & 1) == 1){		//每次判断index最低位是否为1，为1则把集合set的第j个元素放到子集中
+                    if((index & 1) == 1){		//每次判断index最低位是否为 1，为 1则把集合set的第j个元素放到子集中
                         subSet.add(line.get(j));
                     }
                     index >>= 1;		//右移一位
@@ -234,7 +230,7 @@ public class Apriori {
             Iterator<ArrayList<String>> csit = css.iterator();
             while(csit.hasNext()){
                 line = csit.next();
-                Iterator<ArrayList<String>> dit= data.iterator();
+                Iterator<ArrayList<String>> dit = data.iterator();
                 while(dit.hasNext()){
                     tempLine = dit.next();
                     Iterator<String> cslineIt = line.iterator();
@@ -248,7 +244,7 @@ public class Apriori {
                     if(sign){value++;}
                     sign = true;
                 }
-                temp =new Integer(value);
+                temp = new Integer(value);
                 supportCountAlone = temp.doubleValue();
                 if((supportCountAnd/supportCountAlone)>=this.minConfidence){
 
@@ -264,7 +260,7 @@ public class Apriori {
                     System.out.print("->");
                     System.out.print(line2);
                     line2 = new ArrayList<>();
-                    System.out.print("  Confidence:");
+                    System.out.print("  置信度:");
                     System.out.println(supportCountAnd/supportCountAlone);
                 }
                 line.add(temp.toString());
