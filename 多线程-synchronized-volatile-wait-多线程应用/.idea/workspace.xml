@@ -2,29 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13df80fc-960c-45b6-b9b3-7555854082ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/volatile的语法示例.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/多线程代码.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/试试volatile的可见性问题.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/试试volatile重排序引起的问题.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/还是n加加和n减减的故事.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../线程池/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../线程池/src/MyThreadPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../线程池/src/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../线程池/src/ThreadPoolDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../设计模式--单例模式/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../设计模式--单例模式/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../设计模式--单例模式/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../设计模式--单例模式/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../设计模式--单例模式/src/LazySingleton3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../设计模式--单例模式/src/单例模式之懒汉1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../设计模式--单例模式/src/单例模式之懒汉2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../设计模式--单例模式/src/单例模式之饿汉.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../设计模式--单例模式/设计模式--单例模式.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/线程不安全机制解决.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/线程不安全机制解决.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../词法分析器/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../词法分析器/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JDBC_2020_2_11/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBC_2020_2_11/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../多线程--阻塞队列--生产者-消费者模型/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../多线程--阻塞队列--生产者-消费者模型/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,14 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/线程不安全机制解决.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-600">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-              <folding>
-                <element signature="e#117#118#0" expanded="true" />
-                <element signature="e#154#155#0" expanded="true" />
-                <element signature="e#452#453#0" expanded="true" />
-                <element signature="e#489#490#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="24">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -66,15 +39,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../设计模式--单例模式/src/LazySingleton3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/多线程代码.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
@@ -87,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/volatile的语法示例.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -100,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/src/试试volatile的可见性问题.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="528">
-              <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+              <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -109,12 +73,12 @@
         <entry file="file://$PROJECT_DIR$/src/试试volatile重排序引起的问题.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="192">
-              <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/还是n加加和n减减的故事.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
@@ -157,10 +121,10 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="y" value="-7" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1240" />
-    <option name="height" value="704" />
+    <option name="height" value="705" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -194,7 +158,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../设计模式--单例模式" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.jscs" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
@@ -279,8 +243,6 @@
       <list>
         <item itemvalue="Application.还是n加加和n减减的故事" />
         <item itemvalue="Application.线程不安全机制解决" />
-        <item itemvalue="Application.试试volatile重排序引起的问题" />
-        <item itemvalue="Application.内存可见性解决" />
         <item itemvalue="Application.试试volatile的可见性问题" />
       </list>
     </recent_temporary>
@@ -305,17 +267,18 @@
       <workItem from="1603674700909" duration="1925000" />
       <workItem from="1603867558019" duration="1588000" />
       <workItem from="1604910975816" duration="876000" />
+      <workItem from="1606102250142" duration="42000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13754000" />
+    <option name="totallyTimeSpent" value="13796000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19705094" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1997319" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -350,17 +313,11 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Main.java" />
     <entry file="file://$PROJECT_DIR$/../设计模式--单例模式/src/LazySingleton3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/试试volatile的可见性问题.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -371,20 +328,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/试试volatile重排序引起的问题.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/volatile的语法示例.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -399,23 +342,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/线程不安全机制解决.java">
+    <entry file="file://$PROJECT_DIR$/src/试试volatile的可见性问题.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-600">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#117#118#0" expanded="true" />
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="528">
+          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/线程不安全机制解决.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        <state relative-caret-position="24">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/试试volatile重排序引起的问题.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -423,6 +367,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/volatile的语法示例.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
         </state>
       </provider>
     </entry>

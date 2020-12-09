@@ -21,7 +21,7 @@ public class MyBlockingArrayQueue {
         while (size == array.length) {
             // 队列已满
             //throw new RuntimeException("队列已满");
-            wait(); // 被欢迎的线程就会接着往下执行
+            wait(); // 被唤醒的线程就会接着往下执行
                     // 它以为是消费者线程把它唤醒了，所以，它就以为队列已经不满了
                     // 但实际上，它可能会被生产者唤醒，所以，队列已经不满的推断是不成立的
                     // 修改方式，把 if 换成 while
